@@ -1,0 +1,19 @@
+* Running CMD: /shared/centos7/anaconda3/2021.11/envs/BINF-12-2021/opt/transdecoder/util/compute_base_probs.pl data/trinity_de_novo/Trinity.fasta 0 > results/trinity_de_novo.transdecoder_dir/base_freqs.dat
+
+
+-first extracting base frequencies, we'll need them later.
+
+
+- extracting ORFs from transcripts.
+-total transcripts to examine: 2373
+[100/2373] = 4.21% done    [200/2373] = 8.43% done    [300/2373] = 12.64% done    [400/2373] = 16.86% done    [500/2373] = 21.07% done    [600/2373] = 25.28% done    [700/2373] = 29.50% done    [800/2373] = 33.71% done    [900/2373] = 37.93% done    [1000/2373] = 42.14% done    [1100/2373] = 46.35% done    [1200/2373] = 50.57% done    [1300/2373] = 54.78% done    [1400/2373] = 59.00% done    [1500/2373] = 63.21% done    [1600/2373] = 67.43% done    [1700/2373] = 71.64% done    [1800/2373] = 75.85% done    [1900/2373] = 80.07% done    [2000/2373] = 84.28% done    [2100/2373] = 88.50% done    [2200/2373] = 92.71% done    [2300/2373] = 96.92% done    
+
+#################################
+### Done preparing long ORFs.  ###
+##################################
+
+	Use file: results/trinity_de_novo.transdecoder_dir/longest_orfs.pep  for Pfam and/or BlastP searches to enable homology-based coding region identification.
+
+	Then, run TransDecoder.Predict for your final coding region predictions.
+
+

@@ -1,0 +1,7 @@
+Opening file /home/martinez.jam/GCF_000009205.2_ASM920v2_genomic.fna
+  Contig NC_009089.1: concatenated at chromosome end: NC_009089.1:1..4290252 (length = 4290252 nt)
+  Processed short contigs (<1000000 nt): .
+============================================================
+Contig mapping information has been written to file data/ClostridioidesGmapDb.coords.
+============================================================
+No alternate scaffolds observed

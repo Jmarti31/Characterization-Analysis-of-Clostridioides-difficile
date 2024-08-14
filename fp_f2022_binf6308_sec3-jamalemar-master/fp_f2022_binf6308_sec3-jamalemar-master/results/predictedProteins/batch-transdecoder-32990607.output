@@ -1,0 +1,54 @@
+Starting our analysis Tue Dec 13 15:11:41 EST 2022
+
+Key parameters
+TRANSCRIPTOME: data/trinity_de_novo/Trinity.fasta
+SWISSPROT_DB: /work/courses/BINF6308/inputFiles/blastDB/swissprot
+TRANSDECODER_DIR: results/trinity_de_novo.transdecoder_dir
+LONGEST_ORFS: results/trinity_de_novo.transdecoder_dir/longest_orfs.pep
+OUTFMT: results/blastPep_args.outfmt6
+DOMTBLOUT: results/pfam.domtblout
+PFAMA_PATH: /work/courses/BINF6308/inputFiles/SampleDataFiles/Pfam-A.hmm
+PREDICTED_PROTEIN_PATH: results/predictedProteins
+FINAL_PROTEINS: results/predictedProteins/*transdecoder.pep
+USER: martinez.jam
+
+
+Loading our BINF6308 Anaconda environment.
+Make directory for data files
+Make directory for results files
+Look at sbatch documentation if desired to move de novo Trinity transcriptome data from the home directory
+Move de novo directory from results to data
+Make directory for log files
+Starting ORF prediction pipeline Tue Dec 13 15:11:42 EST 2022
+Identify longORFs with TransDecoder.LongOrfs on data/trinity_de_novo/Trinity.fasta Tue Dec 13 15:11:42 EST 2022
+BLASTp of longest_orfs.pep against SwissProt BLAST DB at /work/courses/BINF6308/inputFiles/blastDB/swissprot Tue Dec 13 15:11:51 EST 2022
+Create pfamScan with hmmscan using the Pfam-A.hmm file found /work/courses/BINF6308/inputFiles/SampleDataFiles/Pfam-A.hmm Tue Dec 13 15:33:15 EST 2022
+Predict proteins with TransDecoder.Predict Tue Dec 13 15:57:51 EST 2022
+Copy TransDecoder.Predict outputs to results/predictedProteins
+Align predicted proteins to SwissProt DB Tue Dec 13 15:59:19 EST 2022
+ORF prediction pipeline complete Tue Dec 13 16:19:30 EST 2022
+Moving key files back to /home
+cp: failed to close ‘/home/martinez.jam/BINF6308/fp_f2022_binf6308_sec3-jamalemar/data/proteinPrediction/trinity_guided/ClostAll.bam.frag_coords’: No space left on device
+cp: cannot create regular file ‘/home/martinez.jam/BINF6308/fp_f2022_binf6308_sec3-jamalemar/data/proteinPrediction/trinity_guided/trinity_GG.cmds’: No space left on device
+cp: cannot create directory ‘/home/martinez.jam/BINF6308/fp_f2022_binf6308_sec3-jamalemar/data/proteinPrediction/trinity_guided/Dir_ClostAll.bam.minC1.gff’: No space left on device
+cp: cannot create regular file ‘/home/martinez.jam/BINF6308/fp_f2022_binf6308_sec3-jamalemar/data/proteinPrediction/trinity_guided/Dir_ClostAll.bam.minC1.gff.listing’: No space left on device
+cp: cannot create regular file ‘/home/martinez.jam/BINF6308/fp_f2022_binf6308_sec3-jamalemar/data/proteinPrediction/trinity_guided/ClostAll.bam.frag_coverage.wig.ok’: No space left on device
+cp: cannot create regular file ‘/home/martinez.jam/BINF6308/fp_f2022_binf6308_sec3-jamalemar/data/proteinPrediction/trinity_guided/read_files.list.ok’: No space left on device
+cp: cannot create regular file ‘/home/martinez.jam/BINF6308/fp_f2022_binf6308_sec3-jamalemar/data/proteinPrediction/trinity_guided/ClostAll.bam.minC1.gff’: No space left on device
+cp: cannot create symbolic link ‘/home/martinez.jam/BINF6308/fp_f2022_binf6308_sec3-jamalemar/data/proteinPrediction/trinity_guided/ClostAll.bam’: No space left on device
+cp: cannot create regular file ‘/home/martinez.jam/BINF6308/fp_f2022_binf6308_sec3-jamalemar/data/proteinPrediction/trinity_guided/trinity_GG.cmds.ok’: No space left on device
+cp: cannot create regular file ‘/home/martinez.jam/BINF6308/fp_f2022_binf6308_sec3-jamalemar/data/proteinPrediction/trinity_guided/Dir_ClostAll.bam.minC1.gff.ok’: No space left on device
+cp: cannot create regular file ‘/home/martinez.jam/BINF6308/fp_f2022_binf6308_sec3-jamalemar/data/proteinPrediction/trinity_guided/ClostAll.bam.read_coords.ok’: No space left on device
+cp: cannot create regular file ‘/home/martinez.jam/BINF6308/fp_f2022_binf6308_sec3-jamalemar/data/proteinPrediction/trinity_guided/partitions.ok’: No space left on device
+cp: cannot create regular file ‘/home/martinez.jam/BINF6308/fp_f2022_binf6308_sec3-jamalemar/data/proteinPrediction/trinity_guided/ClostAll.bam.minC1.gff.ok’: No space left on device
+cp: cannot create regular file ‘/home/martinez.jam/BINF6308/fp_f2022_binf6308_sec3-jamalemar/data/proteinPrediction/trinity_guided/ClostAll.bam.read_coords’: No space left on device
+cp: cannot create regular file ‘/home/martinez.jam/BINF6308/fp_f2022_binf6308_sec3-jamalemar/data/proteinPrediction/trinity_guided/Trinity-GG.fasta’: No space left on device
+cp: cannot create regular file ‘/home/martinez.jam/BINF6308/fp_f2022_binf6308_sec3-jamalemar/data/proteinPrediction/trinity_guided/read_files.list’: No space left on device
+cp: cannot create regular file ‘/home/martinez.jam/BINF6308/fp_f2022_binf6308_sec3-jamalemar/data/proteinPrediction/trinity_guided/Trinity-GG.fasta.gene_trans_map’: No space left on device
+cp: cannot create regular file ‘/home/martinez.jam/BINF6308/fp_f2022_binf6308_sec3-jamalemar/data/proteinPrediction/alignPredicted.txt’: No space left on device
+cp: cannot create regular file ‘/home/martinez.jam/BINF6308/fp_f2022_binf6308_sec3-jamalemar/data/proteinPrediction/blastPep_args.outfmt6’: No space left on device
+cp: cannot create directory ‘/home/martinez.jam/BINF6308/fp_f2022_binf6308_sec3-jamalemar/data/proteinPrediction/quast_results’: No space left on device
+cp: cannot create directory ‘/home/martinez.jam/BINF6308/fp_f2022_binf6308_sec3-jamalemar/data/proteinPrediction/trinity_de_novo.transdecoder_dir’: No space left on device
+cp: cannot create regular file ‘/home/martinez.jam/BINF6308/fp_f2022_binf6308_sec3-jamalemar/data/proteinPrediction/trinity-32958516-trinity_guided_stats.txt’: No space left on device
+/var/spool/slurmd/job32990607/slurm_script: line 105: unexpected EOF while looking for matching `"'
+/var/spool/slurmd/job32990607/slurm_script: line 106: syntax error: unexpected end of file

@@ -1,0 +1,36 @@
+Command line: /shared/centos7/anaconda3/2021.11/envs/BINF-12-2021/bin/spades.py	-1	/scratch/martinez.jam/fp_f2022_binf6308_sec3-jamalemar/data/trimmed/paired/Clostridioides.R1.paired.fastq	-2	/scratch/martinez.jam/fp_f2022_binf6308_sec3-jamalemar/data/trimmed/paired/Clostridioides.R2.paired.fastq	-o	/scratch/martinez.jam/fp_f2022_binf6308_sec3-jamalemar/results/clostridioides	
+
+System information:
+  SPAdes version: 3.13.1
+  Python version: 3.7.11
+  OS: Linux-3.10.0-1160.25.1.el7.x86_64-x86_64-with-centos-7.9.2009-Core
+
+Output dir: /scratch/martinez.jam/fp_f2022_binf6308_sec3-jamalemar/results/clostridioides
+Mode: read error correction and assembling
+Debug mode is turned OFF
+
+Dataset parameters:
+  Multi-cell mode (you should set '--sc' flag if input data was obtained with MDA (single-cell) technology or --meta flag if processing metagenomic dataset)
+  Reads:
+    Library number: 1, library type: paired-end
+      orientation: fr
+      left reads: ['/scratch/martinez.jam/fp_f2022_binf6308_sec3-jamalemar/data/trimmed/paired/Clostridioides.R1.paired.fastq']
+      right reads: ['/scratch/martinez.jam/fp_f2022_binf6308_sec3-jamalemar/data/trimmed/paired/Clostridioides.R2.paired.fastq']
+      interlaced reads: not specified
+      single reads: not specified
+      merged reads: not specified
+Read error correction parameters:
+  Iterations: 1
+  PHRED offset will be auto-detected
+  Corrected reads will be compressed
+Assembly parameters:
+  k: automatic selection based on read length
+  Repeat resolution is enabled
+  Mismatch careful mode is turned OFF
+  MismatchCorrector will be SKIPPED
+  Coverage cutoff is turned OFF
+Other parameters:
+  Dir for temp files: /scratch/martinez.jam/fp_f2022_binf6308_sec3-jamalemar/results/clostridioides/tmp
+  Threads: 16
+  Memory limit (in Gb): 125
+

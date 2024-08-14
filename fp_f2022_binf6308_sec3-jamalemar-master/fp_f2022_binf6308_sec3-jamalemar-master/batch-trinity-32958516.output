@@ -1,0 +1,19 @@
+Starting our analysis Sat Dec 10 02:56:21 EST 2022
+Loading our BINF6308 Anaconda environment, which includes Trinity.
+Loading samtools.
+Make directory for data files
+Make directory for log files
+Starting Guided Assembly Sat Dec 10 02:56:22 EST 2022
+Merge all BAM alignment files Sat Dec 10 02:56:22 EST 2022
+Assemble the Guided Transcriptome Sat Dec 10 03:01:06 EST 2022
+Analyze the Guided Transcriptome Sat Dec 10 06:28:30 EST 2022
+Guided Assembly complete Sat Dec 10 06:28:31 EST 2022
+Starting De Novo Assembly Sat Dec 10 06:28:31 EST 2022
+Assemble the De Novo Transcriptome Sat Dec 10 06:28:31 EST 2022
+Analyze the De Novo Transcriptome Sat Dec 10 07:11:51 EST 2022
+De Novo Assembly complete Sat Dec 10 07:11:52 EST 2022
+Moving key files back to /home
+cp: cannot create directory ‘/home/martinez.jam/fp_f2022_binf6308_sec3-jamalemar/data/trinity_guided’: No such file or directory
+cp: cannot create directory ‘/home/martinez.jam/fp_f2022_binf6308_sec3-jamalemar/data/trinity_de_novo’: No such file or directory
+cp: target ‘/home/martinez.jam/fp_f2022_binf6308_sec3-jamalemar/data/’ is not a directory
+Assemblies complete Sat Dec 10 07:11:52 EST 2022

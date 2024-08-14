@@ -1,0 +1,6 @@
+results/bam/SRR21284802.sorted.bam
+results/bam/SRR21284803.sorted.bam
+results/bam/SRR21284804.sorted.bam
+results/bam/SRR21284805.sorted.bam
+results/bam/SRR21284806.sorted.bam
+results/bam/SRR21284807.sorted.bam

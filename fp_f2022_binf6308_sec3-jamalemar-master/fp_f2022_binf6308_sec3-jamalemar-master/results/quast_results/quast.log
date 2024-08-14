@@ -1,0 +1,66 @@
+/shared/centos7/anaconda3/2021.11/envs/BINF-12-2021/bin/quast.py results/clostridioides/contigs.fasta -o results/quast_results
+
+Version: 5.0.2
+
+System information:
+  OS: Linux-3.10.0-1160.25.1.el7.x86_64-x86_64-with-centos-7.9.2009-Core (linux_64)
+  Python version: 3.7.11
+  CPUs number: 48
+
+Started: 2022-12-04 23:05:22
+
+Logging to /scratch/martinez.jam/fp_f2022_binf6308_sec3-jamalemar/results/quast_results/quast.log
+NOTICE: Maximum number of threads is set to 12 (use --threads option to set it manually)
+
+CWD: /scratch/martinez.jam/fp_f2022_binf6308_sec3-jamalemar
+Main parameters: 
+  MODE: default, threads: 12, minimum contig length: 500, minimum alignment length: 65, \
+  ambiguity: one, threshold for extensive misassembly size: 1000
+
+Contigs:
+  Pre-processing...
+  results/clostridioides/contigs.fasta ==> contigs
+
+2022-12-04 23:05:24
+Running Basic statistics processor...
+  Contig files: 
+    contigs
+  Calculating N50 and L50...
+    contigs, N50 = 208886, L50 = 7, Total length = 4008790, GC % = 28.37, # N's per 100 kbp =  0.00
+  Drawing Nx plot...
+    saved to /scratch/martinez.jam/fp_f2022_binf6308_sec3-jamalemar/results/quast_results/basic_stats/Nx_plot.pdf
+  Drawing cumulative plot...
+    saved to /scratch/martinez.jam/fp_f2022_binf6308_sec3-jamalemar/results/quast_results/basic_stats/cumulative_plot.pdf
+  Drawing GC content plot...
+    saved to /scratch/martinez.jam/fp_f2022_binf6308_sec3-jamalemar/results/quast_results/basic_stats/GC_content_plot.pdf
+  Drawing contigs GC content plot...
+    saved to /scratch/martinez.jam/fp_f2022_binf6308_sec3-jamalemar/results/quast_results/basic_stats/contigs_GC_content_plot.pdf
+  Drawing Coverage histogram (bin size: 12x)...
+    saved to /scratch/martinez.jam/fp_f2022_binf6308_sec3-jamalemar/results/quast_results/basic_stats/coverage_histogram.pdf
+  Drawing contigs coverage histogram (bin size: 12x)...
+    saved to /scratch/martinez.jam/fp_f2022_binf6308_sec3-jamalemar/results/quast_results/basic_stats/contigs_coverage_histogram.pdf
+Done.
+
+NOTICE: Genes are not predicted by default. Use --gene-finding or --glimmer option to enable it.
+
+2022-12-04 23:05:26
+Creating large visual summaries...
+This may take a while: press Ctrl-C to skip this step..
+  1 of 2: Creating Icarus viewers...
+  2 of 2: Creating PDF with all tables and plots...
+Done
+
+2022-12-04 23:05:27
+RESULTS:
+  Text versions of total report are saved to /scratch/martinez.jam/fp_f2022_binf6308_sec3-jamalemar/results/quast_results/report.txt, report.tsv, and report.tex
+  Text versions of transposed total report are saved to /scratch/martinez.jam/fp_f2022_binf6308_sec3-jamalemar/results/quast_results/transposed_report.txt, transposed_report.tsv, and transposed_report.tex
+  HTML version (interactive tables and plots) is saved to /scratch/martinez.jam/fp_f2022_binf6308_sec3-jamalemar/results/quast_results/report.html
+  PDF version (tables and plots) is saved to /scratch/martinez.jam/fp_f2022_binf6308_sec3-jamalemar/results/quast_results/report.pdf
+  Icarus (contig browser) is saved to /scratch/martinez.jam/fp_f2022_binf6308_sec3-jamalemar/results/quast_results/icarus.html
+  Log is saved to /scratch/martinez.jam/fp_f2022_binf6308_sec3-jamalemar/results/quast_results/quast.log
+
+Finished: 2022-12-04 23:05:27
+Elapsed time: 0:00:04.664983
+NOTICEs: 2; WARNINGs: 0; non-fatal ERRORs: 0
+
+Thank you for using QUAST!

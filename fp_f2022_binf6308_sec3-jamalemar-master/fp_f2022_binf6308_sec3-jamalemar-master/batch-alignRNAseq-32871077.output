@@ -1,0 +1,12 @@
+Starting our analysis Sun Dec  4 23:44:38 EST 2022
+Loading our BINF6308 Anaconda environment.
+Loading GSNAP and Samtools.
+/var/spool/slurmd/job32871077/slurm_script: line 21: rawreads/README.md: No such file or directory
+Make directory for log files
+Retrieve RNA-Seq Reads Sun Dec  4 23:44:39 EST 2022
+Build the reference genome Sun Dec  4 23:49:25 EST 2022
+Trim all reads in data/rawreads/ Sun Dec  4 23:49:53 EST 2022
+Align the reads to the reference with GSNAP Sun Dec  4 23:55:53 EST 2022
+Sort the resulting SAM files Mon Dec  5 00:32:55 EST 2022
+Index the resulting BAM files Mon Dec  5 00:41:04 EST 2022
+Alignment complete Mon Dec  5 00:41:50 EST 2022

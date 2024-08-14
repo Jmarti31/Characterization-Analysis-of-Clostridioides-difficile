@@ -1,0 +1,132 @@
+GSNAP version 2021-12-17 called with args: gsnap.avx2 -A sam -D data -d ClostridioidesGmapDb -N 1 data/RNAtrimmed/paired/SRR21284802_1.fastq data/RNAtrimmed/paired/SRR21284802_2.fastq
+Novel splicing (-N) turned on => assume reads are RNA-Seq
+Checking compiler assumptions for SSE2: 6B8B4567 327B23C6 xor=59F066A1
+Checking compiler assumptions for SSE4.1: -103 -58 max=198 => compiler zero extends
+Checking compiler assumptions for SSE4.2 options: 6B8B4567 __builtin_clz=1 __builtin_ctz=0 _mm_popcnt_u32=17 __builtin_popcount=17 
+Finished checking compiler assumptions
+Allocating memory for compressed genome (oligos)...done (1,611,812 bytes, 0.01 sec)
+Allocating memory for compressed genome (bits)...done (1,611,840 bytes, 0.02 sec)
+Looking for genome ClostridioidesGmapDb in directory data/ClostridioidesGmapDb
+Looking for index files in directory data/ClostridioidesGmapDb
+  Pointers file is ClostridioidesGmapDb.ref153offsets64meta
+  Offsets file is ClostridioidesGmapDb.ref153offsets64strm
+  Positions file is ClostridioidesGmapDb.ref153positions
+Offsets compression type: bitpack64
+Allocating memory for ref offset pointers, kmer 15, interval 3...done (134,217,744 bytes, 0.79 sec)
+Allocating memory for ref offsets, kmer 15, interval 3...done (17,131,152 bytes, 0.11 sec)
+Allocating memory for ref positions, kmer 15, interval 3...done (5,730,812 bytes, 0.07 sec)
+Looking for region files in directory data/ClostridioidesGmapDb
+  Regiondb file is ClostridioidesGmapDb.ref061regiondb
+Allocating memory for ref regiondb, kmer 6, interval 1...done (9,191,424 bytes, 0.04 sec)
+Starting alignment
+Processed 2112907 queries in 491.64 seconds (4297.67 queries/sec)
+GSNAP version 2021-12-17 called with args: gsnap.avx2 -A sam -D data -d ClostridioidesGmapDb -N 1 data/RNAtrimmed/paired/SRR21284803_1.fastq data/RNAtrimmed/paired/SRR21284803_2.fastq
+Novel splicing (-N) turned on => assume reads are RNA-Seq
+Checking compiler assumptions for SSE2: 6B8B4567 327B23C6 xor=59F066A1
+Checking compiler assumptions for SSE4.1: -103 -58 max=198 => compiler zero extends
+Checking compiler assumptions for SSE4.2 options: 6B8B4567 __builtin_clz=1 __builtin_ctz=0 _mm_popcnt_u32=17 __builtin_popcount=17 
+Finished checking compiler assumptions
+Allocating memory for compressed genome (oligos)...done (1,611,812 bytes, 0.04 sec)
+Allocating memory for compressed genome (bits)...done (1,611,840 bytes, 0.02 sec)
+Looking for genome ClostridioidesGmapDb in directory data/ClostridioidesGmapDb
+Looking for index files in directory data/ClostridioidesGmapDb
+  Pointers file is ClostridioidesGmapDb.ref153offsets64meta
+  Offsets file is ClostridioidesGmapDb.ref153offsets64strm
+  Positions file is ClostridioidesGmapDb.ref153positions
+Offsets compression type: bitpack64
+Allocating memory for ref offset pointers, kmer 15, interval 3...done (134,217,744 bytes, 0.51 sec)
+Allocating memory for ref offsets, kmer 15, interval 3...done (17,131,152 bytes, 0.09 sec)
+Allocating memory for ref positions, kmer 15, interval 3...done (5,730,812 bytes, 0.05 sec)
+Looking for region files in directory data/ClostridioidesGmapDb
+  Regiondb file is ClostridioidesGmapDb.ref061regiondb
+Allocating memory for ref regiondb, kmer 6, interval 1...done (9,191,424 bytes, 0.05 sec)
+Starting alignment
+Processed 1516366 queries in 246.92 seconds (6141.12 queries/sec)
+GSNAP version 2021-12-17 called with args: gsnap.avx2 -A sam -D data -d ClostridioidesGmapDb -N 1 data/RNAtrimmed/paired/SRR21284804_1.fastq data/RNAtrimmed/paired/SRR21284804_2.fastq
+Novel splicing (-N) turned on => assume reads are RNA-Seq
+Checking compiler assumptions for SSE2: 6B8B4567 327B23C6 xor=59F066A1
+Checking compiler assumptions for SSE4.1: -103 -58 max=198 => compiler zero extends
+Checking compiler assumptions for SSE4.2 options: 6B8B4567 __builtin_clz=1 __builtin_ctz=0 _mm_popcnt_u32=17 __builtin_popcount=17 
+Finished checking compiler assumptions
+Allocating memory for compressed genome (oligos)...done (1,611,812 bytes, 0.01 sec)
+Allocating memory for compressed genome (bits)...done (1,611,840 bytes, 0.06 sec)
+Looking for genome ClostridioidesGmapDb in directory data/ClostridioidesGmapDb
+Looking for index files in directory data/ClostridioidesGmapDb
+  Pointers file is ClostridioidesGmapDb.ref153offsets64meta
+  Offsets file is ClostridioidesGmapDb.ref153offsets64strm
+  Positions file is ClostridioidesGmapDb.ref153positions
+Offsets compression type: bitpack64
+Allocating memory for ref offset pointers, kmer 15, interval 3...done (134,217,744 bytes, 0.60 sec)
+Allocating memory for ref offsets, kmer 15, interval 3...done (17,131,152 bytes, 0.12 sec)
+Allocating memory for ref positions, kmer 15, interval 3...done (5,730,812 bytes, 0.08 sec)
+Looking for region files in directory data/ClostridioidesGmapDb
+  Regiondb file is ClostridioidesGmapDb.ref061regiondb
+Allocating memory for ref regiondb, kmer 6, interval 1...done (9,191,424 bytes, 0.03 sec)
+Starting alignment
+Processed 2306556 queries in 357.98 seconds (6443.25 queries/sec)
+GSNAP version 2021-12-17 called with args: gsnap.avx2 -A sam -D data -d ClostridioidesGmapDb -N 1 data/RNAtrimmed/paired/SRR21284805_1.fastq data/RNAtrimmed/paired/SRR21284805_2.fastq
+Novel splicing (-N) turned on => assume reads are RNA-Seq
+Checking compiler assumptions for SSE2: 6B8B4567 327B23C6 xor=59F066A1
+Checking compiler assumptions for SSE4.1: -103 -58 max=198 => compiler zero extends
+Checking compiler assumptions for SSE4.2 options: 6B8B4567 __builtin_clz=1 __builtin_ctz=0 _mm_popcnt_u32=17 __builtin_popcount=17 
+Finished checking compiler assumptions
+Allocating memory for compressed genome (oligos)...done (1,611,812 bytes, 0.02 sec)
+Allocating memory for compressed genome (bits)...done (1,611,840 bytes, 0.02 sec)
+Looking for genome ClostridioidesGmapDb in directory data/ClostridioidesGmapDb
+Looking for index files in directory data/ClostridioidesGmapDb
+  Pointers file is ClostridioidesGmapDb.ref153offsets64meta
+  Offsets file is ClostridioidesGmapDb.ref153offsets64strm
+  Positions file is ClostridioidesGmapDb.ref153positions
+Offsets compression type: bitpack64
+Allocating memory for ref offset pointers, kmer 15, interval 3...done (134,217,744 bytes, 0.39 sec)
+Allocating memory for ref offsets, kmer 15, interval 3...done (17,131,152 bytes, 0.09 sec)
+Allocating memory for ref positions, kmer 15, interval 3...done (5,730,812 bytes, 0.06 sec)
+Looking for region files in directory data/ClostridioidesGmapDb
+  Regiondb file is ClostridioidesGmapDb.ref061regiondb
+Allocating memory for ref regiondb, kmer 6, interval 1...done (9,191,424 bytes, 0.02 sec)
+Starting alignment
+Processed 3316270 queries in 528.22 seconds (6278.20 queries/sec)
+GSNAP version 2021-12-17 called with args: gsnap.avx2 -A sam -D data -d ClostridioidesGmapDb -N 1 data/RNAtrimmed/paired/SRR21284806_1.fastq data/RNAtrimmed/paired/SRR21284806_2.fastq
+Novel splicing (-N) turned on => assume reads are RNA-Seq
+Checking compiler assumptions for SSE2: 6B8B4567 327B23C6 xor=59F066A1
+Checking compiler assumptions for SSE4.1: -103 -58 max=198 => compiler zero extends
+Checking compiler assumptions for SSE4.2 options: 6B8B4567 __builtin_clz=1 __builtin_ctz=0 _mm_popcnt_u32=17 __builtin_popcount=17 
+Finished checking compiler assumptions
+Allocating memory for compressed genome (oligos)...done (1,611,812 bytes, 0.03 sec)
+Allocating memory for compressed genome (bits)...done (1,611,840 bytes, 0.07 sec)
+Looking for genome ClostridioidesGmapDb in directory data/ClostridioidesGmapDb
+Looking for index files in directory data/ClostridioidesGmapDb
+  Pointers file is ClostridioidesGmapDb.ref153offsets64meta
+  Offsets file is ClostridioidesGmapDb.ref153offsets64strm
+  Positions file is ClostridioidesGmapDb.ref153positions
+Offsets compression type: bitpack64
+Allocating memory for ref offset pointers, kmer 15, interval 3...done (134,217,744 bytes, 0.39 sec)
+Allocating memory for ref offsets, kmer 15, interval 3...done (17,131,152 bytes, 0.09 sec)
+Allocating memory for ref positions, kmer 15, interval 3...done (5,730,812 bytes, 0.05 sec)
+Looking for region files in directory data/ClostridioidesGmapDb
+  Regiondb file is ClostridioidesGmapDb.ref061regiondb
+Allocating memory for ref regiondb, kmer 6, interval 1...done (9,191,424 bytes, 0.09 sec)
+Starting alignment
+Processed 1533686 queries in 257.04 seconds (5966.72 queries/sec)
+GSNAP version 2021-12-17 called with args: gsnap.avx2 -A sam -D data -d ClostridioidesGmapDb -N 1 data/RNAtrimmed/paired/SRR21284807_1.fastq data/RNAtrimmed/paired/SRR21284807_2.fastq
+Novel splicing (-N) turned on => assume reads are RNA-Seq
+Checking compiler assumptions for SSE2: 6B8B4567 327B23C6 xor=59F066A1
+Checking compiler assumptions for SSE4.1: -103 -58 max=198 => compiler zero extends
+Checking compiler assumptions for SSE4.2 options: 6B8B4567 __builtin_clz=1 __builtin_ctz=0 _mm_popcnt_u32=17 __builtin_popcount=17 
+Finished checking compiler assumptions
+Allocating memory for compressed genome (oligos)...done (1,611,812 bytes, 0.02 sec)
+Allocating memory for compressed genome (bits)...done (1,611,840 bytes, 0.03 sec)
+Looking for genome ClostridioidesGmapDb in directory data/ClostridioidesGmapDb
+Looking for index files in directory data/ClostridioidesGmapDb
+  Pointers file is ClostridioidesGmapDb.ref153offsets64meta
+  Offsets file is ClostridioidesGmapDb.ref153offsets64strm
+  Positions file is ClostridioidesGmapDb.ref153positions
+Offsets compression type: bitpack64
+Allocating memory for ref offset pointers, kmer 15, interval 3...done (134,217,744 bytes, 0.73 sec)
+Allocating memory for ref offsets, kmer 15, interval 3...done (17,131,152 bytes, 0.10 sec)
+Allocating memory for ref positions, kmer 15, interval 3...done (5,730,812 bytes, 0.05 sec)
+Looking for region files in directory data/ClostridioidesGmapDb
+  Regiondb file is ClostridioidesGmapDb.ref061regiondb
+Allocating memory for ref regiondb, kmer 6, interval 1...done (9,191,424 bytes, 0.06 sec)
+Starting alignment
+Processed 2203927 queries in 333.54 seconds (6607.68 queries/sec)
